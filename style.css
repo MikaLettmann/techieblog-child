@@ -7,3 +7,32 @@
  Version:      1.0.0
  Text Domain:  techieblog-child
 */
+
+body {
+    background: rgb(237, 235, 235);
+    line-height: 1.8;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    color: #018de4;
+}
+
+a:hover, a:focus {
+    color: #018de4;
+    text-decoration: underline;
+}
+
+div.wp-block-column,
+p.has-text-align-center,
+div.col-xs-6 {
+    color: #555555;
+}
+
+.post {
+    margin-bottom: 150px;
+}
+
+.related-posts {
+    margin-top: 150px;
+}
